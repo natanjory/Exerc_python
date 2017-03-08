@@ -1,5 +1,7 @@
-def print_lyrics():
-    print("I'm a lumberjack, and I'm okay.")
-    print("I sleep all night and I work all day.")
-    
-print_lyrics()
+import math
+
+radians = 0.7
+x = math.cos(radians)
+print(x)
+golden = (math.sqrt(5)+1)/2
+print(golden)
