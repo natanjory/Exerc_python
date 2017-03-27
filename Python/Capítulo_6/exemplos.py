@@ -31,10 +31,20 @@ def circle_area(xc, yc, xp, yp):
     result = area(radius)
     return result
     
-res = circle_area(0,0,3,4)
-print(res)
-print(25*math.pi)
+def is_between(x,y,z):
+    if x<=y<=z:
+        return True
+    else:
+        return False
 
+res=is_between(3,6,5)
+print(type(res))
+print(res)
+        
+    
+#res = circle_area(0,0,3,4)
+#print(res)
+#print(25*math.pi)
 
 #test = compare(4,5)
 #print(test)
